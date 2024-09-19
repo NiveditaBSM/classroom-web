@@ -23,6 +23,7 @@ public class AssignmentRepo {
 		 assignmentList.add( new Assignment(4, 2, "What is Binary tree? list its applications", 10, List.of("Data Structure", "Trees", "applied DS")));
 		 assignmentList.add( new Assignment(5, 2, "Give examples along with their applications of Linear Data Structure", 15, List.of("Data Structure", "Linear Data Structures", "types of data structures")));
 		 assignmentList.add( new Assignment(6, 3, "What are benefits offered by docker? why should we use it?", 15, List.of("DevOps", "Deployment", "Containerization")));
+		 assignmentList.add( new Assignment(7, 1, "What are different types of joint? What is view in database querying?", 20, List.of("Joins", "Views", "Querying", "SQL")));
 	}
 
 	// ****************************************************************************
