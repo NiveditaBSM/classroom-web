@@ -22,6 +22,7 @@ public class AssignmentRepo {
 		 assignmentList.add( new Assignment(3, 1, "What is non-relational databse, give examples", 10, List.of("Non realtional databases", "NoSQL")));
 		 assignmentList.add( new Assignment(4, 2, "What is Binary tree? list its applications", 10, List.of("Data Structure", "Trees", "applied DS")));
 		 assignmentList.add( new Assignment(5, 2, "Give examples along with their applications of Linear Data Structure", 15, List.of("Data Structure", "Linear Data Structures", "types of data structures")));
+		 assignmentList.add( new Assignment(6, 3, "What are benefits offered by docker? why should we use it?", 15, List.of("DevOps", "Deployment", "Containerization")));
 	}
 
 	// ****************************************************************************
