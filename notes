@@ -1,0 +1,45 @@
+
+DIFFERENCE BETWEEN SPRING-MVC AND SPRING RESTFUL APPLICATIONS
+--------------------------------------------------------------
+
+The main difference between a normal Spring MVC application and a Spring RESTful web service lies
+in their core purpose and architectural approach.
+
+A normal Spring MVC application is designed to serve dynamic web pages, typically rendered on the
+server-side using technologies like Thymeleaf or JSP. These pages are then sent back to the client
+(typically a web browser) for rendering. The focus is on providing a complete, user-friendly web
+interface.
+
+On the other hand, a Spring RESTful web service is designed to expose a set of well-defined,
+language-agnostic APIs that can be consumed by various clients, such as web applications, mobile
+apps, or other services. These APIs communicate via standard HTTP methods (GET, POST, PUT, DELETE)
+and respond with data in a lightweight, machine-readable format, such as JSON or XML.
+
+The key differences are:
+
+Purpose: A normal Spring MVC application is primarily focused on providing a rich, interactive user
+experience, while a Spring RESTful web service is focused on exposing reusable, interoperable APIs.
+
+Client Interaction: MVC applications typically render full web pages on the server and send them to
+the client. RESTful web services send back data in a lightweight format, allowing the client to
+handle the presentation and logic.
+
+Response Format: MVC applications commonly return HTML pages, while RESTful web services return data
+in formats like JSON or XML.
+
+Statelessness: RESTful web services are generally stateless, meaning each request is independent and
+self-contained. MVC applications may maintain session state to provide a more interactive user
+experience.
+
+*Caching*: RESTful web services often leverage caching mechanisms more extensively to improve
+performance and scalability, as the data they return is typically more cacheable than full web pages.
+
+*Security*: RESTful web services often utilize token-based authentication (e.g., JWT) or API keys,
+while MVC applications may rely more on session-based authentication.
+
+
+In summary, Spring MVC is more focused on providing a complete, server-rendered web application,
+while Spring RESTful web services are designed to expose reusable, interoperable APIs that can be
+consumed by various clients.
+
+**********************************************************************************************************
